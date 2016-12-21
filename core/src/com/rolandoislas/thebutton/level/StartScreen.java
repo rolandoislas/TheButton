@@ -62,6 +62,18 @@ public class StartScreen extends Level {
             }
         });
         addActor(achievements);
+        // Privacy Policy
+        Label privacyPolicy = createLabel(Assets.instance.lang.get("privacypolicy"), (int) (Gdx.graphics.getHeight() *
+                .02), "font/timeburner.ttf");
+        privacyPolicy.setPosition(Gdx.graphics.getWidth() / 2, achievements.getY() - Gdx.graphics.getHeight() *
+                .075f, Align.center);
+        privacyPolicy.addListener(new ClickListener(){
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                playServices.openBrowser("https://github.com/rolandoislas/TheButton/blob/master/privacy.txt");
+            }
+        });
+        addActor(privacyPolicy);
     }
 
     // Used by reflection

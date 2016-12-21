@@ -69,4 +69,9 @@ public class IOSLauncher extends IOSApplication.Delegate implements PlayServices
     public void hideBannerAd() {
 
     }
+
+    @Override
+    public void openBrowser(String url) {
+
+    }
 }

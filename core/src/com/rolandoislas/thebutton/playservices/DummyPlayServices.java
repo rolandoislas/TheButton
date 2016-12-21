@@ -53,4 +53,9 @@ public class DummyPlayServices implements PlayServices {
     public void hideBannerAd() {
 
     }
+
+    @Override
+    public void openBrowser(String url) {
+
+    }
 }

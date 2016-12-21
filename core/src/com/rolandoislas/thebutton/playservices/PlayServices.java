@@ -16,4 +16,6 @@ public interface PlayServices {
     // Ad
     void showBannerAd();
     void hideBannerAd();
+    // Intent
+	void openBrowser(String url);
 }

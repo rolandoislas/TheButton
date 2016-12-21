@@ -55,4 +55,9 @@ public class DesktopPlayServices implements PlayServices {
     public void hideBannerAd() {
 
     }
+
+    @Override
+    public void openBrowser(String url) {
+
+    }
 }
