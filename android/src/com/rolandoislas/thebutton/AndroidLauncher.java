@@ -1,11 +1,9 @@
 package com.rolandoislas.thebutton;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
-
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
@@ -22,7 +20,6 @@ public class AndroidLauncher extends AndroidApplication implements PlayServices 
 
 	private GameHelper gameHelper;
 	private int requestCode = 1;
-	private int attempts = 0;
 	private AdView bannerAdView;
 
 	@Override
@@ -35,14 +32,7 @@ public class AndroidLauncher extends AndroidApplication implements PlayServices 
 		final GameHelper.GameHelperListener gameHelperListener = new GameHelper.GameHelperListener() {
 			@Override
 			public void onSignInFailed() {
-				if (attempts == 0) {
-					attempts++;
-					return;
-				}
-				Dialog errorDialog = gameHelper.makeSimpleDialog(
-						getString(R.string.common_google_play_services_sign_in_failed_title),
-						getString(R.string.common_google_play_services_sign_in_failed_text));
-				errorDialog.show();
+
 			}
 
 			@Override

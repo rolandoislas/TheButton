@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_id">1028873236429</string>
+    <string name="app_id">86029257704</string>
     <string name="package_name">com.rolandoislas.thebutton</string>
-    <string name="achievement_instant_finish">CgkIzd_-7PgdEAIQAw</string>
-    <string name="achievement_let_the_games_begin">CgkIzd_-7PgdEAIQBA</string>
-    <string name="achievement_understanding_the_game">CgkIzd_-7PgdEAIQBQ</string>
-    <string name="achievement_focus">CgkIzd_-7PgdEAIQBg</string>
-    <string name="achievement_neo">CgkIzd_-7PgdEAIQBw</string>
-    <string name="leaderboard_score">CgkIzd_-7PgdEAIQAA</string>
+    <string name="achievement_instant_finish">CgkI6Jf5vcACEAIQAQ</string>
+    <string name="achievement_let_the_games_begin">CgkI6Jf5vcACEAIQAg</string>
+    <string name="achievement_understanding_the_game">CgkI6Jf5vcACEAIQAw</string>
+    <string name="achievement_focus">CgkI6Jf5vcACEAIQBA</string>
+    <string name="achievement_neo">CgkI6Jf5vcACEAIQBQ</string>
+    <string name="leaderboard_score">CgkI6Jf5vcACEAIQBg</string>
 </resources>

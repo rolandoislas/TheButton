@@ -19,7 +19,7 @@ public class TheButton extends ApplicationAdapter {
 			LevelSingleButton.class,
 			LevelButtonSwitch.class,
 			LevelSameColorButton.class,
-			LevelKeypad.class,
+			//LevelKeypad.class,
 			LevelSingleSwitch.class,
 			LevelWipers.class,
 			LevelFourButtons.class,
