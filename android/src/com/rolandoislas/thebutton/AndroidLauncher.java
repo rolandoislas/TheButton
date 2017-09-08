@@ -154,6 +154,7 @@ public class AndroidLauncher extends AndroidApplication implements PlayServices 
 				bannerAdView.setVisibility(View.VISIBLE);
 				AdRequest.Builder builder = new AdRequest.Builder();
 				builder.addTestDevice("399A5A84DB0C8ECF8A14F464E92E6D38");
+				builder.addTestDevice("5BB33D102A83899F1264167C569FF342");
 				builder.addTestDevice(AdRequest.DEVICE_ID_EMULATOR);
 				AdRequest ad = builder.build();
 				bannerAdView.loadAd(ad);
